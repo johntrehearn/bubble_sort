@@ -25,12 +25,12 @@ a:hover {
 body {
   font-family: 'Rubik+Doodle+Shadow', Courier, monospace;
   text-align: center;
-  background-image: url(./src/assets/city.JPG);
+  background-image: url(./src/assets/forest1.JPG);
   background-size: cover;
   height: 100vh;
   top: 50%;
   cursor: pointer;
-  color: #11dfe9;
+  color: #e72a15;
   font-weight: bolder;
 }
 

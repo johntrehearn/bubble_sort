@@ -1,5 +1,5 @@
 function Bubblesort(/* {[arrayEnt]} */) {
-  let sortArray = [3, 8, 4, 1, 2, 18];
+  let sortArray = [9, 3, 8, 4, 2];
 
   for (let i = 0; i < sortArray.length; i++) {
     console.log(i);
