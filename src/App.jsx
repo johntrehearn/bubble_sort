@@ -1,28 +1,30 @@
 import { useState } from 'react';
-import Word from './wordEntry';
 import Output from './output';
+import ArrayEnter from './arrayEntry';
 
 
 
 function App() {
-  const [wordEnt, setWordEnt] = useState(" ")
+  const [arrayEnt, setArrayEnt] = useState(" ")
 
   function handleEntry(event) {
-    setWordEnt(event.target.value);
+    setArrayEnt(event.target.value);
   }
 
-  console.log(wordEnt);
+  console.log(arrayEnt);
 
   return (
     <>
-    <div>
+    <div className='main'>
 
-     <h1>JT Palindrome Checker</h1>
-     <h3>Please enter the word to check:</h3>
-     <Word wordEnt={wordEnt} checkPal={handleEntry}/>
-     <Output wordEnt={wordEnt}/>
+    <div className='mainBoard'>
+
+     <h1>JT Bubble Sorter</h1>
+     <ArrayEnter arrayEnt={arrayEnt} checkArray={handleEntry}/>
+     <Output arrayEnt={arrayEnt}/>
       
 
+    </div>
     </div>
 
     </>

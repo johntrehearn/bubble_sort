@@ -23,14 +23,31 @@ a:hover {
 }
 
 body {
-  font-family: 'Pixelify Sans', Courier, monospace;
+  font-family: 'Rubik+Doodle+Shadow', Courier, monospace;
   text-align: center;
-  background-image: url(./src/assets/beach.JPG);
+  background-image: url(./src/assets/city.JPG);
   background-size: cover;
   height: 100vh;
   top: 50%;
   cursor: pointer;
-  color: #535bf2;
+  color: #11dfe9;
+  font-weight: bolder;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.mainBoard {
+  padding-top: 5vh;
+
+
+}
+
+h1 {
+  margin-bottom: 10%;
 }
 
 input {
